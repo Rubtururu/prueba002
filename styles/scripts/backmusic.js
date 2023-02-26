@@ -1,0 +1,2 @@
+var globalMusic=.3,globalEffects=.3;void 0==localStorage.getItem("globalmusic")?localStorage.setItem("globalmusic",globalMusic):globalMusic=localStorage.getItem("globalmusic");void 0==localStorage.getItem("globaleffects")?localStorage.setItem("globaleffects",globalEffects):globalEffects=localStorage.getItem("globaleffects");
+var backgroundSound=new Howl({src:["/styles/music/ambient.webm"],autoplay:!1,loop:!0,volume:parseFloat(globalMusic)}),clickSound=new Howl({src:["/styles/music/click.webm"],autoplay:!1,loop:!1,volume:parseFloat(globalEffects)});

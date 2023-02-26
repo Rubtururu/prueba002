@@ -1,0 +1,280 @@
+﻿<html lang="en">
+<head>
+<title>MediTown - NFT Play to Earn Game</title>
+<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": ["VideoGame", "BrowserGame"],
+			"name": "MediTown",
+			"operatingSystem": "Browser",
+			"applicationCategory": "BrowserApplication",
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "5.0",
+				"ratingCount": "15921"
+			}
+		}
+		</script>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="content-language" content="en">
+<meta http-equiv="Cache-control" content="public">
+<meta name="referrer" content="same-origin">
+<meta name="author" content="MediTown">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=2,user-scalable=no">
+<meta name="description" content="MediTown is an NFT Play to Earn game live on the Binance Smart Chain (BSC)">
+<meta name="keywords" content="nftgame,playtoearn,gamefi,binance smart chain,nft">
+<meta name="language" content="en">
+<link rel="canonical" href="https://meditown.io">
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://meditown.io/">
+<meta property="twitter:title" content="MediTown - Stable NFT Play to Earn">
+<meta property="twitter:description" content="MediTown is an NFT Play to Earn game live on the Binance Smart Chain (BSC)">
+<meta property="twitter:image" content="https://meditown.io/styles/img/twitterback.webp">
+<link rel='shortcut icon' type="image/x-icon" href='favicon.ico'>
+<link rel='icon' type="image/x-icon" href='favicon.ico'>
+<meta property="og:image" content="https://meditown.io/styles/img/twitterback.jpg">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="website">
+<meta property="og:title" content="MediTown - Stable NFT Play to Earn Game">
+<meta property="og:description" content="MediTown is an NFT Play to Earn game live on the Binance Smart Chain (BSC)">
+<meta property="og:url" content="https://meditown.io/">
+<meta property="og:site_name" content="MediTown">
+<meta name="thumbnail" content="https://meditown.io/meditownthumb.png">
+
+
+<script async="" src="gtag/js?id=G-PHLV4CBXFF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PHLV4CBXFF');
+</script>
+</head>
+<body class="noselect">
+<link rel="stylesheet" href="npm/bootstrap%405.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<link rel="stylesheet" href="npm/bootstrap-icons%401.10.3/font/bootstrap-icons.css">
+<link href="css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+<link href="css2-1?family=Poppins:wght@300&display=swap" rel="stylesheet">
+<link href="css2-2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+<link href="css2-3?family=Lato:wght@100;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles/css/game.css">
+<div class="topbar">
+<div class="backstats">
+<div class="foodicon">
+<span class="topquant foodquant">0</span>
+</div>
+</div>
+<div class="backstats backstats2">
+<div class="woodicon">
+<span class="topquant woodquant">0</span>
+</div>
+</div>
+<div class="backstats backstats3">
+<div class="coalicon">
+<span class="topquant coalquant">0</span>
+</div>
+</div>
+<div class="backstats backstats4">
+<div class="goldicon">
+<span class="topquant goldquant">0.00</span>
+</div>
+</div>
+<div class="backstats realtime">
+<div class="clockicon">
+<span class="realquant">....</span>
+</div>
+</div>
+<div class="optionbtn"><img src="styles/img/optionbtn.webp"></div>
+<div class="mywallet"><span class="walletacc">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Loading ...</span></div>
+</div>
+<div id="binanceIntegration"><div id="tokenList"></div></div>
+<div id="mapobjects" class="game-bordersr2">
+<div id="objcontents">
+</div>
+</div>
+
+<div id="gamewrapper">
+<div id="gamemap">
+<canvas id="backdecor" class="canvasbacks" width="5100" height="5100"></canvas>
+<canvas id="streetTiles" class="canvasbacks" width="5100" height="5100"></canvas>
+<canvas id="gridCanvas" class="canvasbacks" width="5100" height="5100"></canvas>
+<canvas id="canvasmap" class="canvasbacks" width="5100" height="5100"></canvas>
+<canvas id="canvashouses" class="canvasbacks" width="5100" height="5100"></canvas>
+<canvas id="canvasbuttons" class="canvasbacks" width="5100" height="5100"></canvas>
+<canvas id="lightcanvas" class="canvasbacks" width="5100" height="5100"></canvas>
+<span class='nightfilter'></span>
+</div>
+</div>
+<div class="bottombar">
+<div class="buildbutton"></div>
+<div class="lineseparator"></div>
+<div class="roadbutton disablebtn"></div>
+<div class="inventorysystem disablebtn"></div>
+<div class="refersystem"></div>
+<div class="exchangesystem"></div>
+<div class="questsystem"></div>
+</div>
+<div class="draghead game-borders">
+<img class="closecontainer" src="styles/img/closebutton.webp">
+<div id="head"></div>
+<div class="container cntnr">
+<div class="row">
+<div class="containercontenttop"></div>
+<div class="containercontentmedium"></div>
+<div class="containercontentbottom"></div>
+</div>
+</div>
+</div>
+<div class="draghead2 game-bordersr">
+<img class="closecontainer2" src="styles/img/closebutton.webp">
+<div id="head2"></div>
+<div class="container">
+<div class="row newrow">
+</div>
+</div>
+</div>
+<div class="draghead3 game-borders">
+<img class="closecontainer3" src="styles/img/closebutton.webp">
+<div id="head3"></div>
+<div class="container">
+<div class="row">
+<div class="housetopcontainername"></div>
+<div class="housetopcontainer"></div>
+<div class="housemidcontainer"></div>
+</div>
+</div>
+</div>
+<div class="draghead4 game-borders">
+<div class="container cntnr2">
+<div class="row">
+<center><div class="alertmsgmid"></div></center>
+</div>
+</div>
+</div>
+<div class="draghead5 game-borders">
+<img class="closecontainer5" src="styles/img/closebutton.webp">
+<div id="head5"></div>
+<div class="container">
+<div class="row">
+<div class="topcontaineroptions">Options:</div>
+<div class="midcontaineroptions"></div>
+</div>
+</div>
+</div>
+<div class="draghead6 game-borders">
+<img class="closecontainer6" src="styles/img/closebutton.webp">
+<div id="head6"></div>
+<div class="container">
+<div class="row">
+<div class="topcontaineroptionsr">Referral System:</div>
+<div class="midcontaineroptionsr"></div>
+</div>
+</div>
+</div>
+<div class="draghead7 game-borders">
+<img class="closecontainer7" src="styles/img/closebutton.webp">
+<div id="head7"></div>
+<div class="container">
+<div class="row">
+<div class="topcontaineroptionex">Exchange:</div>
+<div class="midcontaineroptionex"></div>
+</div>
+</div>
+</div>
+<div id="quests" class="draghead8 game-bordersr">
+<ol class="list-group questgroup"></ol>
+<div class="list-group questbtngroup">
+<div class="buttonlists"><div class="smallbtn closequest"><div class="innersmall">Close</div></div></div>
+</div>
+</div>
+<div class="chatcontainer game-borders chathidden">
+<div class="chatbox-top">
+<div class="chat-group-name">
+Global Chat
+</div>
+</div>
+<img src="styles/img/warnicon.webp" title="Connection lost" class="warniconchat">
+<div class="chatbtns"><div class="btnchatback btnminimchat minmchatactive"></div><div class="btnchatback btnmaxchat" style="display: none;"></div><div class="btnchatback btnclschat" style="display: none;"></div></div>
+<div class="chat-messages">
+</div>
+<div class="chat-input-holder game-borders">
+<input id="textchatinput" maxlength="100" autocomplete="0">
+<button type="button" class="btn btn-success btnsendchatmsg">Send</button>
+<button type="button" class="btn btn-success btnsendchatcom">Send</button>
+</div>
+</div>
+<div class='notifzone' style="display:block"></div>
+<div id="mobile-nav">
+<center>
+<div class="mywalletmobile">
+<span class="walletmobile">loading...</span>
+</div>
+</center>
+<ul>
+<li>
+<span>Food:
+<span class="mobilequant foodicon">
+<span class="mobilequant foodquantmobile">0</span>
+</span>
+</span>
+</li>
+<li>
+<span>Wood:
+<span class="mobilequant woodicon">
+<span class="mobilequant woodquantmobile">0</span>
+</span>
+</span>
+</li>
+<li>
+<span>Coal:
+<span class="mobilequant coalicon">
+<span class="mobilequant coalquantmobile">0</span>
+</span>
+</span>
+</li>
+<li>
+<span>Gold:
+<span class="mobilequant goldicon">
+<span class="mobilequant goldquantmobile">0</span>
+</span>
+</span>
+</li>
+<li>
+<span>Time:
+<span class="mobilequant clockicon">
+<span class="mobilequant timemobile">00:00</span>
+</span>
+</span>
+</li>
+<li>
+<span class="optionsmobile">Options</span>
+</li>
+</ul>
+</div>
+<div id="mobile-body-overly"></div>
+<script src="ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+<script src="ajax/libs/gsap/3.11.4/Draggable.min.js"></script>
+<script src="styles/scripts/InertiaPlugin.min.js"></script>
+<script src="npm/web3%40latest/dist/web3.min.js" type="application/javascript"></script>
+<script src="ajax/libs/ethers/5.4.5/ethers.umd.min.js" type="application/javascript"></script>
+<script src="ajax/libs/seedrandom/3.0.5/seedrandom.min.js"></script>
+<script src="html5-qrcode%402.3.7/html5-qrcode.min.js"></script>
+<script>
+	const dragdivs = ["head", "head2", "head3", "head5", "head6", "head7"];
+	const objectsPanelEditor = [0,68,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64];
+	const noWalkableEditor = [20,31,32,33,34,35,36,37,38,39,40,41,42,44,45,46,48,49,50,58,59,60,63,64,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83];
+</script>
+<script src="npm/easystarjs%400.4.3/bin/easystar-0.4.3.min.js"></script>
+<script src="%40popperjs/core%402.11.6/dist/umd/popper.min.js"></script>
+<script src="tippy.js%406.3.7/dist/tippy-bundle.umd.min.js"></script>
+<script src="styles/scripts/howler.min.js"></script>
+<script src="styles/scripts/contract.js"></script>
+<script src="styles/scripts/backmusic.js"></script>
+<script src="styles/scripts/game.js"></script>
+<script src="styles/scripts/mapeditor.js"></script>
+<script src="styles/scripts/background.js"></script>
+<script defer="" src="beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993" integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==" data-cf-beacon='{"rayId":"79fb112efad166a1","token":"4c3efac3b3fc41d29b867e92abbfe778","version":"2023.2.0","si":100}' crossorigin="anonymous"></script>
+</body>
+</html>
